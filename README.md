@@ -1,5 +1,6 @@
 # Cars
 Cars app provide simple articles for some cars.
+With data persistance using coredata with swiftui.
 
 ## Onboarding Views With Some Aggressive Car Engine Voice
 ![onboard engine](https://raw.githubusercontent.com/saeed-alghamdi/Cars/main/Media/Video_1.mov)
