@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC32EA922FC1881600BFFCED /* CarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EA912FC1881600BFFCED /* CarsApp.swift */; };
+		AC32EA992FC1881700BFFCED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC32EA982FC1881700BFFCED /* Preview Assets.xcassets */; };
+		AC32EAA02FC1887C00BFFCED /* AllBrandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EA9F2FC1887C00BFFCED /* AllBrandsView.swift */; };
+		AC32EAA22FC1889E00BFFCED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAA12FC1889E00BFFCED /* Assets.xcassets */; };
+		AC32EAA42FC188CC00BFFCED /* CompanyDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAA32FC188CC00BFFCED /* CompanyDetailsView.swift */; };
+		AC32EAA62FC188FF00BFFCED /* DataPersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAA52FC188FF00BFFCED /* DataPersistanceController.swift */; };
+		AC32EAA82FC1891C00BFFCED /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAA72FC1891C00BFFCED /* DetailsView.swift */; };
+		AC32EAAA2FC1894000BFFCED /* FavoriteArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAA92FC1894000BFFCED /* FavoriteArticleListView.swift */; };
+		AC32EAAC2FC1897200BFFCED /* GallaryCarsArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAAB2FC1897200BFFCED /* GallaryCarsArticleListView.swift */; };
+		AC32EAAE2FC1898F00BFFCED /* GallaryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAAD2FC1898F00BFFCED /* GallaryDetailsView.swift */; };
+		AC32EAB12FC189B300BFFCED /* CarBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAB02FC189B300BFFCED /* CarBrand.swift */; };
+		AC32EABD2FC18A0700BFFCED /* SixthScreenOnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAB32FC18A0700BFFCED /* SixthScreenOnBoardView.swift */; };
+		AC32EABE2FC18A0700BFFCED /* ThirdScreeonOnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAB42FC18A0700BFFCED /* ThirdScreeonOnBoardView.swift */; };
+		AC32EABF2FC18A0700BFFCED /* EighthScreenOnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAB52FC18A0700BFFCED /* EighthScreenOnBoardView.swift */; };
+		AC32EAC02FC18A0700BFFCED /* SecondScreenOnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAB62FC18A0700BFFCED /* SecondScreenOnBoardView.swift */; };
+		AC32EAC12FC18A0700BFFCED /* FifthScreenOnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAB72FC18A0700BFFCED /* FifthScreenOnBoardView.swift */; };
+		AC32EAC22FC18A0700BFFCED /* NinthScreenOnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAB82FC18A0700BFFCED /* NinthScreenOnBoardView.swift */; };
+		AC32EAC32FC18A0700BFFCED /* FourthScreenOnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAB92FC18A0700BFFCED /* FourthScreenOnBoardView.swift */; };
+		AC32EAC42FC18A0700BFFCED /* FirstScreenOnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EABA2FC18A0700BFFCED /* FirstScreenOnBoardView.swift */; };
+		AC32EAC52FC18A0700BFFCED /* OnBoardTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EABB2FC18A0700BFFCED /* OnBoardTabView.swift */; };
+		AC32EAC62FC18A0700BFFCED /* SeventhScreenOnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EABC2FC18A0700BFFCED /* SeventhScreenOnBoardView.swift */; };
+		AC32EAC82FC18A4A00BFFCED /* soundHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32EAC72FC18A4A00BFFCED /* soundHandler.swift */; };
+		AC32EAFE2FC18A6A00BFFCED /* 28.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EACA2FC18A6900BFFCED /* 28.mp3 */; };
+		AC32EAFF2FC18A6A00BFFCED /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EACB2FC18A6900BFFCED /* 8.mp3 */; };
+		AC32EB002FC18A6A00BFFCED /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EACC2FC18A6900BFFCED /* 9.mp3 */; };
+		AC32EB012FC18A6A00BFFCED /* 27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EACD2FC18A6900BFFCED /* 27.mp3 */; };
+		AC32EB022FC18A6A00BFFCED /* 49.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EACE2FC18A6900BFFCED /* 49.mp3 */; };
+		AC32EB032FC18A6A00BFFCED /* 45.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EACF2FC18A6900BFFCED /* 45.mp3 */; };
+		AC32EB042FC18A6A00BFFCED /* 18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD02FC18A6900BFFCED /* 18.mp3 */; };
+		AC32EB052FC18A6A00BFFCED /* 15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD12FC18A6900BFFCED /* 15.mp3 */; };
+		AC32EB062FC18A6A00BFFCED /* 14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD22FC18A6900BFFCED /* 14.mp3 */; };
+		AC32EB072FC18A6A00BFFCED /* 42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD32FC18A6900BFFCED /* 42.mp3 */; };
+		AC32EB082FC18A6A00BFFCED /* 17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD42FC18A6900BFFCED /* 17.mp3 */; };
+		AC32EB092FC18A6A00BFFCED /* 41.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD52FC18A6900BFFCED /* 41.mp3 */; };
+		AC32EB0A2FC18A6A00BFFCED /* 33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD62FC18A6900BFFCED /* 33.mp3 */; };
+		AC32EB0B2FC18A6A00BFFCED /* 20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD72FC18A6900BFFCED /* 20.mp3 */; };
+		AC32EB0C2FC18A6A00BFFCED /* 65_impala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD82FC18A6900BFFCED /* 65_impala.mp3 */; };
+		AC32EB0D2FC18A6A00BFFCED /* 35.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAD92FC18A6900BFFCED /* 35.mp3 */; };
+		AC32EB0E2FC18A6A00BFFCED /* 48.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EADA2FC18A6900BFFCED /* 48.mp3 */; };
+		AC32EB0F2FC18A6A00BFFCED /* 40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EADB2FC18A6900BFFCED /* 40.mp3 */; };
+		AC32EB102FC18A6A00BFFCED /* blower_start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EADC2FC18A6900BFFCED /* blower_start.mp3 */; };
+		AC32EB112FC18A6A00BFFCED /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EADD2FC18A6900BFFCED /* 2.mp3 */; };
+		AC32EB122FC18A6A00BFFCED /* 37.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EADE2FC18A6900BFFCED /* 37.mp3 */; };
+		AC32EB132FC18A6A00BFFCED /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EADF2FC18A6900BFFCED /* 10.mp3 */; };
+		AC32EB142FC18A6A00BFFCED /* 26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE02FC18A6900BFFCED /* 26.mp3 */; };
+		AC32EB152FC18A6A00BFFCED /* 22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE12FC18A6A00BFFCED /* 22.mp3 */; };
+		AC32EB162FC18A6A00BFFCED /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE22FC18A6A00BFFCED /* 4.mp3 */; };
+		AC32EB172FC18A6A00BFFCED /* 29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE32FC18A6A00BFFCED /* 29.mp3 */; };
+		AC32EB182FC18A6A00BFFCED /* 32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE42FC18A6A00BFFCED /* 32.mp3 */; };
+		AC32EB192FC18A6A00BFFCED /* 44.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE52FC18A6A00BFFCED /* 44.mp3 */; };
+		AC32EB1A2FC18A6A00BFFCED /* 38.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE62FC18A6A00BFFCED /* 38.mp3 */; };
+		AC32EB1B2FC18A6A00BFFCED /* cammed48liter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE72FC18A6A00BFFCED /* cammed48liter.mp3 */; };
+		AC32EB1C2FC18A6A00BFFCED /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE82FC18A6A00BFFCED /* 3.mp3 */; };
+		AC32EB1D2FC18A6A00BFFCED /* 47.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAE92FC18A6A00BFFCED /* 47.mp3 */; };
+		AC32EB1E2FC18A6A00BFFCED /* 12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAEA2FC18A6A00BFFCED /* 12.mp3 */; };
+		AC32EB1F2FC18A6A00BFFCED /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAEB2FC18A6A00BFFCED /* 1.mp3 */; };
+		AC32EB202FC18A6A00BFFCED /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAEC2FC18A6A00BFFCED /* 6.mp3 */; };
+		AC32EB212FC18A6A00BFFCED /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAED2FC18A6A00BFFCED /* 11.mp3 */; };
+		AC32EB222FC18A6A00BFFCED /* 31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAEE2FC18A6A00BFFCED /* 31.mp3 */; };
+		AC32EB232FC18A6A00BFFCED /* 19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAEF2FC18A6A00BFFCED /* 19.mp3 */; };
+		AC32EB242FC18A6A00BFFCED /* 23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF02FC18A6A00BFFCED /* 23.mp3 */; };
+		AC32EB252FC18A6A00BFFCED /* 13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF12FC18A6A00BFFCED /* 13.mp3 */; };
+		AC32EB262FC18A6A00BFFCED /* 46.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF22FC18A6A00BFFCED /* 46.mp3 */; };
+		AC32EB272FC18A6A00BFFCED /* 30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF32FC18A6A00BFFCED /* 30.mp3 */; };
+		AC32EB282FC18A6A00BFFCED /* 16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF42FC18A6A00BFFCED /* 16.mp3 */; };
+		AC32EB292FC18A6A00BFFCED /* 39.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF52FC18A6A00BFFCED /* 39.mp3 */; };
+		AC32EB2A2FC18A6A00BFFCED /* 43.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF62FC18A6A00BFFCED /* 43.mp3 */; };
+		AC32EB2B2FC18A6A00BFFCED /* 24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF72FC18A6A00BFFCED /* 24.mp3 */; };
+		AC32EB2C2FC18A6A00BFFCED /* 34.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF82FC18A6A00BFFCED /* 34.mp3 */; };
+		AC32EB2D2FC18A6A00BFFCED /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAF92FC18A6A00BFFCED /* 7.mp3 */; };
+		AC32EB2E2FC18A6A00BFFCED /* 36.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAFA2FC18A6A00BFFCED /* 36.mp3 */; };
+		AC32EB2F2FC18A6A00BFFCED /* 25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAFB2FC18A6A00BFFCED /* 25.mp3 */; };
+		AC32EB302FC18A6A00BFFCED /* 21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAFC2FC18A6A00BFFCED /* 21.mp3 */; };
+		AC32EB312FC18A6A00BFFCED /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32EAFD2FC18A6A00BFFCED /* 5.mp3 */; };
+		AC32EB342FC18AAF00BFFCED /* Favortis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC32EB322FC18AAE00BFFCED /* Favortis.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC32EA8E2FC1881600BFFCED /* Cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC32EA912FC1881600BFFCED /* CarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsApp.swift; sourceTree = "<group>"; };
+		AC32EA982FC1881700BFFCED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC32EA9F2FC1887C00BFFCED /* AllBrandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBrandsView.swift; sourceTree = "<group>"; };
+		AC32EAA12FC1889E00BFFCED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC32EAA32FC188CC00BFFCED /* CompanyDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailsView.swift; sourceTree = "<group>"; };
+		AC32EAA52FC188FF00BFFCED /* DataPersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistanceController.swift; sourceTree = "<group>"; };
+		AC32EAA72FC1891C00BFFCED /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		AC32EAA92FC1894000BFFCED /* FavoriteArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteArticleListView.swift; sourceTree = "<group>"; };
+		AC32EAAB2FC1897200BFFCED /* GallaryCarsArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryCarsArticleListView.swift; sourceTree = "<group>"; };
+		AC32EAAD2FC1898F00BFFCED /* GallaryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryDetailsView.swift; sourceTree = "<group>"; };
+		AC32EAB02FC189B300BFFCED /* CarBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrand.swift; sourceTree = "<group>"; };
+		AC32EAB32FC18A0700BFFCED /* SixthScreenOnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthScreenOnBoardView.swift; sourceTree = "<group>"; };
+		AC32EAB42FC18A0700BFFCED /* ThirdScreeonOnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdScreeonOnBoardView.swift; sourceTree = "<group>"; };
+		AC32EAB52FC18A0700BFFCED /* EighthScreenOnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EighthScreenOnBoardView.swift; sourceTree = "<group>"; };
+		AC32EAB62FC18A0700BFFCED /* SecondScreenOnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScreenOnBoardView.swift; sourceTree = "<group>"; };
+		AC32EAB72FC18A0700BFFCED /* FifthScreenOnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthScreenOnBoardView.swift; sourceTree = "<group>"; };
+		AC32EAB82FC18A0700BFFCED /* NinthScreenOnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinthScreenOnBoardView.swift; sourceTree = "<group>"; };
+		AC32EAB92FC18A0700BFFCED /* FourthScreenOnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthScreenOnBoardView.swift; sourceTree = "<group>"; };
+		AC32EABA2FC18A0700BFFCED /* FirstScreenOnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScreenOnBoardView.swift; sourceTree = "<group>"; };
+		AC32EABB2FC18A0700BFFCED /* OnBoardTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardTabView.swift; sourceTree = "<group>"; };
+		AC32EABC2FC18A0700BFFCED /* SeventhScreenOnBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeventhScreenOnBoardView.swift; sourceTree = "<group>"; };
+		AC32EAC72FC18A4A00BFFCED /* soundHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soundHandler.swift; sourceTree = "<group>"; };
+		AC32EACA2FC18A6900BFFCED /* 28.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 28.mp3; sourceTree = "<group>"; };
+		AC32EACB2FC18A6900BFFCED /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		AC32EACC2FC18A6900BFFCED /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
+		AC32EACD2FC18A6900BFFCED /* 27.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 27.mp3; sourceTree = "<group>"; };
+		AC32EACE2FC18A6900BFFCED /* 49.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 49.mp3; sourceTree = "<group>"; };
+		AC32EACF2FC18A6900BFFCED /* 45.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 45.mp3; sourceTree = "<group>"; };
+		AC32EAD02FC18A6900BFFCED /* 18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 18.mp3; sourceTree = "<group>"; };
+		AC32EAD12FC18A6900BFFCED /* 15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 15.mp3; sourceTree = "<group>"; };
+		AC32EAD22FC18A6900BFFCED /* 14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 14.mp3; sourceTree = "<group>"; };
+		AC32EAD32FC18A6900BFFCED /* 42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 42.mp3; sourceTree = "<group>"; };
+		AC32EAD42FC18A6900BFFCED /* 17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 17.mp3; sourceTree = "<group>"; };
+		AC32EAD52FC18A6900BFFCED /* 41.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 41.mp3; sourceTree = "<group>"; };
+		AC32EAD62FC18A6900BFFCED /* 33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 33.mp3; sourceTree = "<group>"; };
+		AC32EAD72FC18A6900BFFCED /* 20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 20.mp3; sourceTree = "<group>"; };
+		AC32EAD82FC18A6900BFFCED /* 65_impala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 65_impala.mp3; sourceTree = "<group>"; };
+		AC32EAD92FC18A6900BFFCED /* 35.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 35.mp3; sourceTree = "<group>"; };
+		AC32EADA2FC18A6900BFFCED /* 48.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 48.mp3; sourceTree = "<group>"; };
+		AC32EADB2FC18A6900BFFCED /* 40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 40.mp3; sourceTree = "<group>"; };
+		AC32EADC2FC18A6900BFFCED /* blower_start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blower_start.mp3; sourceTree = "<group>"; };
+		AC32EADD2FC18A6900BFFCED /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		AC32EADE2FC18A6900BFFCED /* 37.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 37.mp3; sourceTree = "<group>"; };
+		AC32EADF2FC18A6900BFFCED /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10.mp3; sourceTree = "<group>"; };
+		AC32EAE02FC18A6900BFFCED /* 26.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 26.mp3; sourceTree = "<group>"; };
+		AC32EAE12FC18A6A00BFFCED /* 22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 22.mp3; sourceTree = "<group>"; };
+		AC32EAE22FC18A6A00BFFCED /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		AC32EAE32FC18A6A00BFFCED /* 29.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 29.mp3; sourceTree = "<group>"; };
+		AC32EAE42FC18A6A00BFFCED /* 32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 32.mp3; sourceTree = "<group>"; };
+		AC32EAE52FC18A6A00BFFCED /* 44.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 44.mp3; sourceTree = "<group>"; };
+		AC32EAE62FC18A6A00BFFCED /* 38.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 38.mp3; sourceTree = "<group>"; };
+		AC32EAE72FC18A6A00BFFCED /* cammed48liter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cammed48liter.mp3; sourceTree = "<group>"; };
+		AC32EAE82FC18A6A00BFFCED /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		AC32EAE92FC18A6A00BFFCED /* 47.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 47.mp3; sourceTree = "<group>"; };
+		AC32EAEA2FC18A6A00BFFCED /* 12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12.mp3; sourceTree = "<group>"; };
+		AC32EAEB2FC18A6A00BFFCED /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		AC32EAEC2FC18A6A00BFFCED /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		AC32EAED2FC18A6A00BFFCED /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11.mp3; sourceTree = "<group>"; };
+		AC32EAEE2FC18A6A00BFFCED /* 31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 31.mp3; sourceTree = "<group>"; };
+		AC32EAEF2FC18A6A00BFFCED /* 19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 19.mp3; sourceTree = "<group>"; };
+		AC32EAF02FC18A6A00BFFCED /* 23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 23.mp3; sourceTree = "<group>"; };
+		AC32EAF12FC18A6A00BFFCED /* 13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 13.mp3; sourceTree = "<group>"; };
+		AC32EAF22FC18A6A00BFFCED /* 46.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 46.mp3; sourceTree = "<group>"; };
+		AC32EAF32FC18A6A00BFFCED /* 30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 30.mp3; sourceTree = "<group>"; };
+		AC32EAF42FC18A6A00BFFCED /* 16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 16.mp3; sourceTree = "<group>"; };
+		AC32EAF52FC18A6A00BFFCED /* 39.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 39.mp3; sourceTree = "<group>"; };
+		AC32EAF62FC18A6A00BFFCED /* 43.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 43.mp3; sourceTree = "<group>"; };
+		AC32EAF72FC18A6A00BFFCED /* 24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 24.mp3; sourceTree = "<group>"; };
+		AC32EAF82FC18A6A00BFFCED /* 34.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 34.mp3; sourceTree = "<group>"; };
+		AC32EAF92FC18A6A00BFFCED /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
+		AC32EAFA2FC18A6A00BFFCED /* 36.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 36.mp3; sourceTree = "<group>"; };
+		AC32EAFB2FC18A6A00BFFCED /* 25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 25.mp3; sourceTree = "<group>"; };
+		AC32EAFC2FC18A6A00BFFCED /* 21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 21.mp3; sourceTree = "<group>"; };
+		AC32EAFD2FC18A6A00BFFCED /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		AC32EB332FC18AAE00BFFCED /* Favortis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Favortis.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC32EA8B2FC1881600BFFCED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC32EA852FC1881600BFFCED = {
+			isa = PBXGroup;
+			children = (
+				AC32EA902FC1881600BFFCED /* Cars */,
+				AC32EA8F2FC1881600BFFCED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC32EA8F2FC1881600BFFCED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC32EA8E2FC1881600BFFCED /* Cars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC32EA902FC1881600BFFCED /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				AC32EB322FC18AAE00BFFCED /* Favortis.xcdatamodeld */,
+				AC32EA912FC1881600BFFCED /* CarsApp.swift */,
+				AC32EAC92FC18A5D00BFFCED /* Sounds */,
+				AC32EAB22FC189F000BFFCED /* OnBoardingViews */,
+				AC32EAAF2FC189A800BFFCED /* Model */,
+				AC32EAA12FC1889E00BFFCED /* Assets.xcassets */,
+				AC32EA972FC1881700BFFCED /* Preview Content */,
+				AC32EA9F2FC1887C00BFFCED /* AllBrandsView.swift */,
+				AC32EAA32FC188CC00BFFCED /* CompanyDetailsView.swift */,
+				AC32EAA52FC188FF00BFFCED /* DataPersistanceController.swift */,
+				AC32EAA72FC1891C00BFFCED /* DetailsView.swift */,
+				AC32EAA92FC1894000BFFCED /* FavoriteArticleListView.swift */,
+				AC32EAAB2FC1897200BFFCED /* GallaryCarsArticleListView.swift */,
+				AC32EAAD2FC1898F00BFFCED /* GallaryDetailsView.swift */,
+				AC32EAC72FC18A4A00BFFCED /* soundHandler.swift */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		AC32EA972FC1881700BFFCED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC32EA982FC1881700BFFCED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC32EAAF2FC189A800BFFCED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC32EAB02FC189B300BFFCED /* CarBrand.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC32EAB22FC189F000BFFCED /* OnBoardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				AC32EAB52FC18A0700BFFCED /* EighthScreenOnBoardView.swift */,
+				AC32EAB72FC18A0700BFFCED /* FifthScreenOnBoardView.swift */,
+				AC32EABA2FC18A0700BFFCED /* FirstScreenOnBoardView.swift */,
+				AC32EAB92FC18A0700BFFCED /* FourthScreenOnBoardView.swift */,
+				AC32EAB82FC18A0700BFFCED /* NinthScreenOnBoardView.swift */,
+				AC32EABB2FC18A0700BFFCED /* OnBoardTabView.swift */,
+				AC32EAB62FC18A0700BFFCED /* SecondScreenOnBoardView.swift */,
+				AC32EABC2FC18A0700BFFCED /* SeventhScreenOnBoardView.swift */,
+				AC32EAB32FC18A0700BFFCED /* SixthScreenOnBoardView.swift */,
+				AC32EAB42FC18A0700BFFCED /* ThirdScreeonOnBoardView.swift */,
+			);
+			path = OnBoardingViews;
+			sourceTree = "<group>";
+		};
+		AC32EAC92FC18A5D00BFFCED /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AC32EAEB2FC18A6A00BFFCED /* 1.mp3 */,
+				AC32EADD2FC18A6900BFFCED /* 2.mp3 */,
+				AC32EAE82FC18A6A00BFFCED /* 3.mp3 */,
+				AC32EAE22FC18A6A00BFFCED /* 4.mp3 */,
+				AC32EAFD2FC18A6A00BFFCED /* 5.mp3 */,
+				AC32EAEC2FC18A6A00BFFCED /* 6.mp3 */,
+				AC32EAF92FC18A6A00BFFCED /* 7.mp3 */,
+				AC32EACB2FC18A6900BFFCED /* 8.mp3 */,
+				AC32EACC2FC18A6900BFFCED /* 9.mp3 */,
+				AC32EADF2FC18A6900BFFCED /* 10.mp3 */,
+				AC32EAED2FC18A6A00BFFCED /* 11.mp3 */,
+				AC32EAEA2FC18A6A00BFFCED /* 12.mp3 */,
+				AC32EAF12FC18A6A00BFFCED /* 13.mp3 */,
+				AC32EAD22FC18A6900BFFCED /* 14.mp3 */,
+				AC32EAD12FC18A6900BFFCED /* 15.mp3 */,
+				AC32EAF42FC18A6A00BFFCED /* 16.mp3 */,
+				AC32EAD42FC18A6900BFFCED /* 17.mp3 */,
+				AC32EAD02FC18A6900BFFCED /* 18.mp3 */,
+				AC32EAEF2FC18A6A00BFFCED /* 19.mp3 */,
+				AC32EAD72FC18A6900BFFCED /* 20.mp3 */,
+				AC32EAFC2FC18A6A00BFFCED /* 21.mp3 */,
+				AC32EAE12FC18A6A00BFFCED /* 22.mp3 */,
+				AC32EAF02FC18A6A00BFFCED /* 23.mp3 */,
+				AC32EAF72FC18A6A00BFFCED /* 24.mp3 */,
+				AC32EAFB2FC18A6A00BFFCED /* 25.mp3 */,
+				AC32EAE02FC18A6900BFFCED /* 26.mp3 */,
+				AC32EACD2FC18A6900BFFCED /* 27.mp3 */,
+				AC32EACA2FC18A6900BFFCED /* 28.mp3 */,
+				AC32EAE32FC18A6A00BFFCED /* 29.mp3 */,
+				AC32EAF32FC18A6A00BFFCED /* 30.mp3 */,
+				AC32EAEE2FC18A6A00BFFCED /* 31.mp3 */,
+				AC32EAE42FC18A6A00BFFCED /* 32.mp3 */,
+				AC32EAD62FC18A6900BFFCED /* 33.mp3 */,
+				AC32EAF82FC18A6A00BFFCED /* 34.mp3 */,
+				AC32EAD92FC18A6900BFFCED /* 35.mp3 */,
+				AC32EAFA2FC18A6A00BFFCED /* 36.mp3 */,
+				AC32EADE2FC18A6900BFFCED /* 37.mp3 */,
+				AC32EAE62FC18A6A00BFFCED /* 38.mp3 */,
+				AC32EAF52FC18A6A00BFFCED /* 39.mp3 */,
+				AC32EADB2FC18A6900BFFCED /* 40.mp3 */,
+				AC32EAD52FC18A6900BFFCED /* 41.mp3 */,
+				AC32EAD32FC18A6900BFFCED /* 42.mp3 */,
+				AC32EAF62FC18A6A00BFFCED /* 43.mp3 */,
+				AC32EAE52FC18A6A00BFFCED /* 44.mp3 */,
+				AC32EACF2FC18A6900BFFCED /* 45.mp3 */,
+				AC32EAF22FC18A6A00BFFCED /* 46.mp3 */,
+				AC32EAE92FC18A6A00BFFCED /* 47.mp3 */,
+				AC32EADA2FC18A6900BFFCED /* 48.mp3 */,
+				AC32EACE2FC18A6900BFFCED /* 49.mp3 */,
+				AC32EAD82FC18A6900BFFCED /* 65_impala.mp3 */,
+				AC32EADC2FC18A6900BFFCED /* blower_start.mp3 */,
+				AC32EAE72FC18A6A00BFFCED /* cammed48liter.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC32EA8D2FC1881600BFFCED /* Cars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC32EA9C2FC1881700BFFCED /* Build configuration list for PBXNativeTarget "Cars" */;
+			buildPhases = (
+				AC32EA8A2FC1881600BFFCED /* Sources */,
+				AC32EA8B2FC1881600BFFCED /* Frameworks */,
+				AC32EA8C2FC1881600BFFCED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cars;
+			productName = Cars;
+			productReference = AC32EA8E2FC1881600BFFCED /* Cars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC32EA862FC1881600BFFCED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC32EA8D2FC1881600BFFCED = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AC32EA892FC1881600BFFCED /* Build configuration list for PBXProject "Cars" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC32EA852FC1881600BFFCED;
+			productRefGroup = AC32EA8F2FC1881600BFFCED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC32EA8D2FC1881600BFFCED /* Cars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC32EA8C2FC1881600BFFCED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC32EB292FC18A6A00BFFCED /* 39.mp3 in Resources */,
+				AC32EB262FC18A6A00BFFCED /* 46.mp3 in Resources */,
+				AC32EB222FC18A6A00BFFCED /* 31.mp3 in Resources */,
+				AC32EB1F2FC18A6A00BFFCED /* 1.mp3 in Resources */,
+				AC32EB302FC18A6A00BFFCED /* 21.mp3 in Resources */,
+				AC32EB242FC18A6A00BFFCED /* 23.mp3 in Resources */,
+				AC32EB312FC18A6A00BFFCED /* 5.mp3 in Resources */,
+				AC32EB1C2FC18A6A00BFFCED /* 3.mp3 in Resources */,
+				AC32EB152FC18A6A00BFFCED /* 22.mp3 in Resources */,
+				AC32EB2A2FC18A6A00BFFCED /* 43.mp3 in Resources */,
+				AC32EB0F2FC18A6A00BFFCED /* 40.mp3 in Resources */,
+				AC32EB1B2FC18A6A00BFFCED /* cammed48liter.mp3 in Resources */,
+				AC32EB2E2FC18A6A00BFFCED /* 36.mp3 in Resources */,
+				AC32EB122FC18A6A00BFFCED /* 37.mp3 in Resources */,
+				AC32EB082FC18A6A00BFFCED /* 17.mp3 in Resources */,
+				AC32EB0C2FC18A6A00BFFCED /* 65_impala.mp3 in Resources */,
+				AC32EB0E2FC18A6A00BFFCED /* 48.mp3 in Resources */,
+				AC32EB132FC18A6A00BFFCED /* 10.mp3 in Resources */,
+				AC32EB052FC18A6A00BFFCED /* 15.mp3 in Resources */,
+				AC32EAA22FC1889E00BFFCED /* Assets.xcassets in Resources */,
+				AC32EB212FC18A6A00BFFCED /* 11.mp3 in Resources */,
+				AC32EB162FC18A6A00BFFCED /* 4.mp3 in Resources */,
+				AC32EB192FC18A6A00BFFCED /* 44.mp3 in Resources */,
+				AC32EAFE2FC18A6A00BFFCED /* 28.mp3 in Resources */,
+				AC32EA992FC1881700BFFCED /* Preview Assets.xcassets in Resources */,
+				AC32EB2D2FC18A6A00BFFCED /* 7.mp3 in Resources */,
+				AC32EB1A2FC18A6A00BFFCED /* 38.mp3 in Resources */,
+				AC32EB022FC18A6A00BFFCED /* 49.mp3 in Resources */,
+				AC32EB0B2FC18A6A00BFFCED /* 20.mp3 in Resources */,
+				AC32EB0D2FC18A6A00BFFCED /* 35.mp3 in Resources */,
+				AC32EB2B2FC18A6A00BFFCED /* 24.mp3 in Resources */,
+				AC32EB1D2FC18A6A00BFFCED /* 47.mp3 in Resources */,
+				AC32EB1E2FC18A6A00BFFCED /* 12.mp3 in Resources */,
+				AC32EB112FC18A6A00BFFCED /* 2.mp3 in Resources */,
+				AC32EB272FC18A6A00BFFCED /* 30.mp3 in Resources */,
+				AC32EB102FC18A6A00BFFCED /* blower_start.mp3 in Resources */,
+				AC32EB002FC18A6A00BFFCED /* 9.mp3 in Resources */,
+				AC32EB2C2FC18A6A00BFFCED /* 34.mp3 in Resources */,
+				AC32EB202FC18A6A00BFFCED /* 6.mp3 in Resources */,
+				AC32EB072FC18A6A00BFFCED /* 42.mp3 in Resources */,
+				AC32EB172FC18A6A00BFFCED /* 29.mp3 in Resources */,
+				AC32EB2F2FC18A6A00BFFCED /* 25.mp3 in Resources */,
+				AC32EB232FC18A6A00BFFCED /* 19.mp3 in Resources */,
+				AC32EB062FC18A6A00BFFCED /* 14.mp3 in Resources */,
+				AC32EB282FC18A6A00BFFCED /* 16.mp3 in Resources */,
+				AC32EB032FC18A6A00BFFCED /* 45.mp3 in Resources */,
+				AC32EB182FC18A6A00BFFCED /* 32.mp3 in Resources */,
+				AC32EB0A2FC18A6A00BFFCED /* 33.mp3 in Resources */,
+				AC32EB142FC18A6A00BFFCED /* 26.mp3 in Resources */,
+				AC32EB042FC18A6A00BFFCED /* 18.mp3 in Resources */,
+				AC32EB252FC18A6A00BFFCED /* 13.mp3 in Resources */,
+				AC32EAFF2FC18A6A00BFFCED /* 8.mp3 in Resources */,
+				AC32EB012FC18A6A00BFFCED /* 27.mp3 in Resources */,
+				AC32EB092FC18A6A00BFFCED /* 41.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC32EA8A2FC1881600BFFCED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC32EAC32FC18A0700BFFCED /* FourthScreenOnBoardView.swift in Sources */,
+				AC32EAC02FC18A0700BFFCED /* SecondScreenOnBoardView.swift in Sources */,
+				AC32EAAE2FC1898F00BFFCED /* GallaryDetailsView.swift in Sources */,
+				AC32EAA42FC188CC00BFFCED /* CompanyDetailsView.swift in Sources */,
+				AC32EAAA2FC1894000BFFCED /* FavoriteArticleListView.swift in Sources */,
+				AC32EAA82FC1891C00BFFCED /* DetailsView.swift in Sources */,
+				AC32EAA62FC188FF00BFFCED /* DataPersistanceController.swift in Sources */,
+				AC32EABF2FC18A0700BFFCED /* EighthScreenOnBoardView.swift in Sources */,
+				AC32EAC82FC18A4A00BFFCED /* soundHandler.swift in Sources */,
+				AC32EAAC2FC1897200BFFCED /* GallaryCarsArticleListView.swift in Sources */,
+				AC32EA922FC1881600BFFCED /* CarsApp.swift in Sources */,
+				AC32EAB12FC189B300BFFCED /* CarBrand.swift in Sources */,
+				AC32EAC22FC18A0700BFFCED /* NinthScreenOnBoardView.swift in Sources */,
+				AC32EAC12FC18A0700BFFCED /* FifthScreenOnBoardView.swift in Sources */,
+				AC32EAA02FC1887C00BFFCED /* AllBrandsView.swift in Sources */,
+				AC32EAC52FC18A0700BFFCED /* OnBoardTabView.swift in Sources */,
+				AC32EAC42FC18A0700BFFCED /* FirstScreenOnBoardView.swift in Sources */,
+				AC32EABE2FC18A0700BFFCED /* ThirdScreeonOnBoardView.swift in Sources */,
+				AC32EABD2FC18A0700BFFCED /* SixthScreenOnBoardView.swift in Sources */,
+				AC32EB342FC18AAF00BFFCED /* Favortis.xcdatamodeld in Sources */,
+				AC32EAC62FC18A0700BFFCED /* SeventhScreenOnBoardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC32EA9A2FC1881700BFFCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC32EA9B2FC1881700BFFCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC32EA9D2FC1881700BFFCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cars/Preview Content\"";
+				DEVELOPMENT_TEAM = 32NFNWRJ4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercury.Cars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC32EA9E2FC1881700BFFCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cars/Preview Content\"";
+				DEVELOPMENT_TEAM = 32NFNWRJ4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercury.Cars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC32EA892FC1881600BFFCED /* Build configuration list for PBXProject "Cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC32EA9A2FC1881700BFFCED /* Debug */,
+				AC32EA9B2FC1881700BFFCED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC32EA9C2FC1881700BFFCED /* Build configuration list for PBXNativeTarget "Cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC32EA9D2FC1881700BFFCED /* Debug */,
+				AC32EA9E2FC1881700BFFCED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC32EB322FC18AAE00BFFCED /* Favortis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC32EB332FC18AAE00BFFCED /* Favortis.xcdatamodel */,
+			);
+			currentVersion = AC32EB332FC18AAE00BFFCED /* Favortis.xcdatamodel */;
+			path = Favortis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC32EA862FC1881600BFFCED /* Project object */;
+}
